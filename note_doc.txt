@@ -1,0 +1,6 @@
+Your site is live at https://tringuyen741258-cmyk.github.io/tri-google-search-extension/
+https://tringuyen741258-cmyk.github.io/tri-google-search-extension/privacy-policy.html
+https://tringuyen741258-cmyk.github.io/tri-google-search-extension/support.html
+
+Link check gói extention: https://chrome.google.com/webstore/devconsole
+Link page source: https://github.com/tringuyen741258-cmyk/tri-google-search-extension/settings/pages
