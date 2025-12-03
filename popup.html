@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <style>
+    body {
+      width: 260px;              /* 👈 FIX chiều rộng popup */
+      padding: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #4285F4;
+      color: white;
+      border: none;
+      font-size: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #357ae8;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h3>Tri Google Search</h3>
+
+  <input id="textInput" type="text" placeholder="Nhập nội dung tìm kiếm...">
+
+  <button id="goBtn">Chuyển đến Google & Tìm kiếm</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
