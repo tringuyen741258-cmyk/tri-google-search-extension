@@ -1,10 +1,8 @@
-chrome.runtime.onMessage.addListener((msg) => {
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg.type === "OPEN_GOOGLE_SEARCH") {
-    const q = encodeURIComponent(msg.query);
-
-    // Mở trực tiếp trang tìm kiếm
-    const url = "https://www.google.com/search?q=" + q;
-
-    chrome.tabs.create({ url });
+    const q = encodeURIComponent(msg.query || "");
+    chrome.tabs.create({
+      url: "https://www.google.com/search?q=" + q
+    });
   }
 });
